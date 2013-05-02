@@ -1,8 +1,6 @@
 # jQueryCreate
 	
-	"Why haven't anyone done this before?"
-		--Future You
-
+>	"Why haven't anyone done this before?" **-  Future You**
 
 No learning curve - The jQueryCreate plugin is simple, intuitive and extremely useful. Just plug and play.
 
@@ -11,10 +9,10 @@ Don't use javascript with different syntaxes when it comes to dynamic DOM elemen
 Use the same syntax for element querying and creation.
 
 ## Details
-- Author: EZSlaver
-- Date: 05.02.2013
-- Current Version: 0.9.0
-- License: MIT License
+* **Author**: EZSlaver (Erez Zinman)
+* **Date**: 05.02.2013
+* **Current Version**: 0.9.0
+* **License**: MIT License
 
 ## Usage
 Add the plugin to your HTML page, and do this only after you add the jQuery reference.
@@ -25,11 +23,11 @@ The plugin doesn't support the 'style' attribute. Yet...
 
 
 ## Code Examples:
-	<script type="text/javascript">
-		// Returns a wrapped element to be used directly via jQuery.
-		var $newDiv = $c('div#New').append($c('input[type=text].shows-default-value'));
-		$('body').append($newDiv).append($c('div.seperator'));
-	</script>
+```javascript
+	// Returns a wrapped element to be used directly via jQuery.
+	var $newDiv = $c('div#New').append($c('input[type=text].shows-default-value'));
+	$('body').append($newDiv).append($c('div.seperator'));
+```
 Usages:
 - $c("div");
 - $c("div#foo");
