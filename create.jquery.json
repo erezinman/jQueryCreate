@@ -5,11 +5,11 @@
     "keywords": [
         "create",
         "element",
-		"DOM",
-		"CSS",
-		"syntax"
+        "DOM",
+        "CSS",
+        "syntax"
     ],
-    "version": "0.9",
+    "version": "0.9.0",
     "author": {
         "name": "EZSlaver",
         "url": "https://github.com/EZSlaver/jQueryCreate/"
