@@ -8,9 +8,11 @@ Version: 1.0.0
 
 ================================================================
 
-Author: EZSlaver (Erez Zinman)
+Author: EZSlaver (E. Zinman)
 
-EMail: mailto://EZSlaver@gmail.com
+EMail: EZSlaver@gmail.com
+
+Site: https://github.com/EZSlaver/jQueryCreate
 
 Date: 05.02.2013
 
