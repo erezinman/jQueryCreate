@@ -3,7 +3,7 @@
 	'Why haven't anyone done this before?"
 		--Future You
 
-The jQuery creator plugin repository. Allows you to create your elements using the CSS selector syntax.
+The jQuery creator plugin Allows you to create your elements using CSS selectors syntax.
 Don't use javascript with different syntaxes when it comes to dynamic DOM element creation. 
 Use the same syntax for element querying and creation.
 
