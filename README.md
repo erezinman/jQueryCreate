@@ -19,8 +19,8 @@ Add the plugin to your HTML page, and do this only after you add the jQuery refe
 
 Now, you can use the $c() command to create your elements.
 
-The plugin doesn't support the 'style' attribute. Yet...
-
+## Remarks
+* The plugin doesn't support the 'style' attribute. Yet...
 
 ## Code Examples:
 ```javascript
@@ -28,24 +28,26 @@ The plugin doesn't support the 'style' attribute. Yet...
 	var $newDiv = $c('div#New').append($c('input[type=text].shows-default-value'));
 	$('body').append($newDiv).append($c('div.seperator'));
 ```
-Usages:
-- $c("div");
-- $c("div#foo");
-- $c("div.bar");
-- $c("div#foo.bar");
-- $c("div.bar#foo");
-- $c("div.bar#foo.foo");
-- $c("div.bar.foo#foo");
-- $c("div[disabled=disabled]");
-- $c("div[disabled=disabled].bar");
-- $c("div[disabled=disabled]#foo");
-- $c("div[disabled=disabled]#foo.bar");
-- $c("div[disabled=disabled][selected=true]#foo.bar");
-- $c("div[disabled=disabled][selected=\"true\"]#foo.bar");
-- $c("div[disabled=disabled][selected=\"very true\"]#foo.bar");
-- $c("div[disabled=disabled][selected=\"very:true\"]#foo.bar");
+### Usages:
+```javascript
+var $div = $c("div");
+$div = $c("div#foo");
+$div = $c("div.bar");
+$div = $c("div#foo.bar");
+$div = $c("div.bar#foo");
+$div = $c("div.bar#foo.foo");
+$div = $c("div.bar.foo#foo");
+$div = $c("div[disabled=disabled]");
+$div = $c("div[disabled=disabled].bar");
+$div = $c("div[disabled=disabled]#foo");
+$div = $c("div[disabled=disabled]#foo.bar");
+$div = $c("div[disabled=disabled][selected=true]#foo.bar");
+$div = $c("div[disabled=disabled][selected=\"true\"]#foo.bar");
+$div = $c("div[disabled=disabled][selected=\"very true\"]#foo.bar");
+$div = $c("div[disabled=disabled][selected=\"very:true\"]#foo.bar");
+```
 
 ## Licensing
-Copyright (C) 2010-2013 Erez Zinman
+Copyright (C) 2010-2013 [Erez Zinman](mailto://EZSlaver@gmail.com)
  * Licensed under the MIT License
  * http://www.opensource.org/licenses/mit-license.php
