@@ -1,0 +1,34 @@
+{
+    "name": "create",
+    "title": "jQueryCreate",
+    "description": "The jQuery creator plugin Allows you to create your elements using CSS selectors syntax. Don't use javascript with different syntaxes when it comes to dynamic DOM element creation. Use the same syntax for element querying and creation.",
+    "keywords": [
+        "create",
+        "element",
+		"DOM",
+		"CSS",
+		"syntax"
+    ],
+    "version": "0.9",
+    "author": {
+        "name": "EZSlaver",
+        "url": "https://github.com/EZSlaver/jQueryCreate/"
+    },
+    "maintainers": [
+        {
+            "name": "EZSlaver",
+            "email": "ezslaver@gmail.com"
+        }
+    ],
+    "licenses": [
+        {
+            "type": "MIT License",
+            "url": "http://opensource.org/licenses/MIT"
+        }
+    ],
+    "bugs": "https://github.com/EZSlaver/jQueryCreate/issues",
+    "download": "https://raw.github.com/EZSlaver/jQueryCreate/master/jquery.create.js",
+    "dependencies": {
+        "jquery": "*"
+    }
+}
