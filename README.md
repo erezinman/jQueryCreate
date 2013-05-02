@@ -1,6 +1,6 @@
 # jQueryCreate
 	
-	'Why haven't anyone done this before?"
+	"Why haven't anyone done this before?"
 		--Future You
 
 The jQuery creator plugin Allows you to create your elements using CSS selectors syntax.
