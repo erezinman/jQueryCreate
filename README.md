@@ -3,12 +3,12 @@
 	"Why haven't anyone done this before?"
 		--Future You
 
+
+No learning curve - The jQueryCreate plugin is simple, intuitive and extremely useful. Just plug and play.
+
 The jQuery creator plugin Allows you to create your elements using CSS selectors syntax.
 Don't use javascript with different syntaxes when it comes to dynamic DOM element creation. 
 Use the same syntax for element querying and creation.
-
-The jQueryCreate plugin is simple, intuitive and extremely useful. Just plug and play.
-
 
 ## Details
 - Author: EZSlaver
@@ -25,6 +25,12 @@ The plugin doesn't support the 'style' attribute. Yet...
 
 
 ## Code Examples:
+	<script type="text/javascript">
+		// Returns a wrapped element to be used directly via jQuery.
+		var $newDiv = $c('div#New').append($c('input[type=text].shows-default-value'));
+		$('body').append($newDiv).append($c('div.seperator'));
+	</script>
+Usages:
 - $c("div");
 - $c("div#foo");
 - $c("div.bar");
